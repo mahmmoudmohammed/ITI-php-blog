@@ -1,0 +1,81 @@
+body 
+{
+  font-weightfamily: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #B8C2CC ;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #000d1a;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color:  #a6a6a6;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+/*nave bar*/
+
+.navbar {
+  width: 100%;
+  background-color: #B8C2CC;
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color:#4d4d4d;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  font-size: 21px;
+  color:darkblue;
+  text-decoration: none;
+}
+
+.active {
+  background-color: #cccccc;
+}
+
+#prand {
+  font: bold 2.1rem black;
+  line-height: 50%;
+}
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
